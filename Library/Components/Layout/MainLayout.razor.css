@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-image: linear-gradient(to bottom, #1733d9, #674ae4);
+    padding-top: 20px;
+}
+
+    .navbar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .navbar li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 20px;
+        color: whitesmoke;
+        display: block;
+    }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    background-image: linear-gradient(to left, #1733d9, #674ae4)
+}
